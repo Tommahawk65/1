@@ -12,46 +12,77 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <!--<nav class="container">
             <img class= "banner" src="../assests/images/ujaqgg3dya021.jpg">
-            <div class="nav-links">>
+            <div class="nav-links">
                 <div class="home">Home</div>
                 <div class="music">Music</div>
                 <div class="tour-dates">Tour Dates</div>
                 <div class="contact">Contact</div>
             </div>
-        </div>
+        </nav>-->
+        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <!--Title link to home-->
+            <a class="navbar-brand justify-self-left" href="#">
+              <div class="px-0 mx-0"></div>
+            </a> 
+            <!--tagline active onle on sm screens -->
+            <span class="d-none d-sm-inline d-md-none navbar-text" data-toggle="collaple" style="color: pink">Exploring the world one line at a time.</span>
+            <!-- Name active only on xs screens-->
+            <h4 class="d-inline d-sm-none navbar-text text-left mx-0 px-0" data-toggle="collaple" style="color: pink">CRAIG<span class="text-white">.NORFORD</span></h4>
+            <!-- Menu Button visible on md > xl screens -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Nav links list-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home<span class="sr-only">Current</span></a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="#">Portfolio<span class="sr-only">Current</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Tagline for md and larger screens -->
+            <span class="d-none d-md-inline navbar-text" style="color: pink">Exploring the world one line at a time.</span>
+            </nav>
     </header>
-    <section>
+    <!--
+    <section id="image-cards">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-12 col-sm-6 col-md-3 ">
                 <div class="card">
                     <img src="/assests/images/1.jpg" class="card-img-top" alt="band member 1">
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-sm-6 col-md-3 ">
                 <div class="card">
                     <img src="/assests/images/2.jpg" class="card-img-top" alt="band member 2">
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-sm-6 col-md-3 ">
                 <div class="card">
                     <img src="/assests/images/3.jpg" class="card-img-top" alt="band member 3">
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-sm-6 col-md-3">
                 <div class="card">
                     <img src="/assests/images/4.jpg" class="card-img-top" alt="band member 4">
                 </div>
             </div>
         </div>
-        
-
-    
-       
     </section>
+   
+
     <footer>
     
     </footer>
+    -->
 </body>
 </html>
