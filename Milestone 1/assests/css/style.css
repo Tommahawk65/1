@@ -1,78 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* -----------------------------------------------Nav */
-.container {
-       position: relative;
-  }
 
-  .banner {
-      
-      width: 100%;
-      margin: 0;
-      padding: 0;
-  }
 
-  .home {
-    color: black;
-    position: absolute;
-    bottom: 45%;
-    left: 140px;
-    padding: 3px;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border:solid 4px rgb(0, 0, 0);
-    box-shadow: 5px 5px;
-  }
+body {
+  background:url('../images/ujaqgg3dya021.jpg') no-repeat center center;
+  background-size:cover;
+  background-position: top;        
+}
+
+.navbar {
   
-  .music {
-    color: black;
-    position: absolute;
-    bottom: 45%;
-    left: 330px;
-    padding: 3px;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border:solid 4px rgb(0, 0, 0);
-    box-shadow: 5px 5px;
-  }
+  margin-left: 9%;
+  margin-top: 7.5%;
   
-  .tour-dates {
-    color: black;
-    position: absolute;
-    bottom: 45%;
-    right: 330px;
-    padding: 3px;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border:solid 4px rgb(0, 0, 0);
-    box-shadow: 5px 5px;
-  }
-  
-  .contact {
-    color: black;
-    position: absolute;
-    bottom: 45%;
-    right: 140px;
-    padding: 3px;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border:solid 4px rgb(0, 0, 0);
-    box-shadow: 5px 5px;
-  }
-
-
-/* -----------------------------------------------Image Panel */
-
-
-
-  .row {
-      padding: 20px 100px;
-      position: relative;
-      height: ;
-  }
-
-  .card {
-     
-      margin: 0 20px;
-      height: 10px;
-      
-  }
-
-
-  /* -----------------------------------------------About Us */
+}
