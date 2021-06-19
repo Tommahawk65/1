@@ -1,22 +1,196 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body, html {
+  height: 100%;
+}
 
-
-body {
+       
+.banner {
+  
   background:url('../images/ujaqgg3dya021.jpg') no-repeat center center;
-  background-size:cover;
-  background-position: top;        
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 175%;
+  position: relative;
+  
+  
+}
+
+
+.collapse {
+  
 }
 
 .navbar {
-  
-  margin-left: 9%;
-  margin-top: 6.6%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 50px;
+  margin-left: 4%;
+  float: left;
+  width: 100%;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
   
 }
+
+
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0)
+} 
 
 .btn {
   box-shadow: 5px 5px;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   border:solid 5px #41403E;
 }
+
+
+
+@media screen and (min-width: 300px) {
+  .navbar {
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .banner {
+    background-size: cover;
+    height: 140px;
+  
+    }
+  .navbar {
+    margin-top: 35px;
+    margin-left: 1%;
+
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .banner {
+      background-size: cover;
+      height: 150px;
+    
+      }
+  .navbar {
+    margin-top: 40px;
+                    }
+      }
+    }
+
+@media screen and (min-width: 700px) {
+  .banner {
+    background-size: cover;
+    height: 160px;
+      }
+    }
+
+@media screen and (min-width: 800px) {
+  .banner {    
+    background-size: cover;
+    min-height: 175px;
+   }
+
+  .navbar {
+    margin-top: 50px;
+                }
+  }
+
+@media screen and (min-width: 900px) {
+  .banner {  
+    background-size: cover;
+    min-height: 185px;
+     }
+
+  .navbar {
+    margin-top: 55px;
+                }
+              }
+    
+
+@media screen and (min-width: 1000px) {
+  .banner {      
+    background-size: cover;
+    min-height: 200px;   
+       }
+
+  .navbar {
+    margin-top: 60px;
+              }
+            }
+    
+
+@media screen and (min-width: 1100px) {
+ .banner {
+            
+  background-size: cover;
+  min-height: 220px;
+        
+  }
+
+  .navbar {
+    margin-top: 65px;
+          }
+        }
+    
+@media screen and (min-width: 1200px) {
+  .banner {        
+    background-size: cover;
+    min-height: 240px;  
+              
+           }
+  .navbar {
+    margin-top: 70px;
+            }
+          }
+
+
+@media screen and (min-width: 1300px) {
+  .banner {             
+    background-size: cover;
+    min-height: 260px;
+             }
+
+  .navbar {
+    margin-top: 80px;
+              }
+            }
+
+@media screen and (min-width: 1400px) {
+  .banner {              
+    background-size: cover;
+    min-height: 280px;       
+      }
+  .navbar {
+    margin-top: 90px;
+        }
+          }
+          
+@media screen and (min-width: 1500px) {
+  .banner {
+    background-size: cover;
+    min-height: 300px;
+                 }
+
+  .navbar {
+    margin-top: 100px;
+       }
+        }
+
+@media screen and (min-width: 1600px) {
+  .banner {   
+    background-size: cover;
+    min-height: 320px;   
+                   }
+
+  .navbar {
+    margin-top: 110px;
+                       }
+                  }
+                              
+          
+
+    
