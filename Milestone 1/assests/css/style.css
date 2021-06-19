@@ -11,6 +11,12 @@ body {
 .navbar {
   
   margin-left: 9%;
-  margin-top: 7.5%;
+  margin-top: 6.6%;
   
+}
+
+.btn {
+  box-shadow: 5px 5px;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:solid 5px #41403E;
 }
