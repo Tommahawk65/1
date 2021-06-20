@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 body, html {
-  height: 100%;
+  width: 100%;
 }
 
-       
+
+/* --------------------------------------------------------------------------------------Nav Bar */      
 .banner {
   
   background:url('../images/ujaqgg3dya021.jpg') no-repeat center center;
@@ -18,8 +19,10 @@ body, html {
 }
 
 
-.collapse {
-  
+.fullscreen-nav {
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 3%;
 }
 
 .navbar {
@@ -42,12 +45,51 @@ body, html {
 } 
 
 .btn {
-  box-shadow: 5px 5px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   border:solid 5px #41403E;
 }
 
+/* --------------------------------------------------------------------------------------Band Pictures */   
 
+.band-images{
+  
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+  width: 100%;
+  margin-left: 0;
+  
+  
+}
+
+.single-pics {
+  margin-bottom: 40px;
+}
+
+.pics-no-border {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  
+  
+}
+/* .single-pics {
+  box-shadow: 5px 5px;
+}
+
+/* --------------------------------------------------------------------------------------Band Info */ 
+
+#band-info {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.social-links {
+  text-align: right;
+
+  
+}
+
+/* --------------------------------------------------------------------------------------Media Queries */   
 
 @media screen and (min-width: 300px) {
   .navbar {
@@ -82,11 +124,25 @@ body, html {
     }
 
 @media screen and (min-width: 700px) {
-  .banner {
+  .single-pics {
     background-size: cover;
     height: 160px;
       }
     }
+
+@media screen and (max-width: 767px) {
+  .pics-no-border {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    position: center;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+    
+  }
+      
+       
 
 @media screen and (min-width: 800px) {
   .banner {    
