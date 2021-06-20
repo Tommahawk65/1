@@ -82,6 +82,17 @@ body, html {
   text-align: center;
   padding-bottom: 80px;
 }
+/* --------------------------------------------------------------------------------------Video & Audio */   
+
+.media {
+  margin: 45px;
+}
+
+.spotify {
+  
+}
+
+/* --------------------------------------------------------------------------------------Footer*/   
 
 .social-links {
   text-align: right;
@@ -89,6 +100,32 @@ body, html {
   
 }
 
+
+/* --------------------------------------------------------------------------------------Tour Page*/ 
+
+.tour-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.ticket-row {
+  margin-bottom: 30px;
+}
+
+.date-box, .city-box {
+  padding-top: 15px;
+}
+
+/* --------------------------------------------------------------------------------------Contact Page */
+
+#contact-form {
+  text-align: center;
+  margin: 80px;
+}
+
+.submit-btn {
+  
+}
 /* --------------------------------------------------------------------------------------Media Queries */   
 
 @media screen and (min-width: 300px) {
