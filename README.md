@@ -5,56 +5,88 @@
 ### Project Goals
 
 #### External user’s goal:
-The site's users are fans and potential fans who wish to learn more about the band's history and the band members, and possibly book them for shows.
+The site's users are fans and potential fans who wish to learn more about the band's history and the band members, listen to their music and possibly book them for shows.
 
 #### Site owner's goal:
-The band are interested in selling more of their music/merchandise and getting more gigs.
+The band are interested in increasing their fanbase and selling more tickets to gigs.
 
  
 ### Design choices
 
-### Wireframes
+### Wireframes Full View
+
+#### Home Page
+
+![Alt text](/assets/images/page1-full.png?raw=true "Home Page")
+
+#### Music Page
+![Alt text](/assets/images/page2-full.png?raw=true "Music Page")
+
+#### Tour Dates Page
+![Alt text](/assets/images/page3-full.png?raw=true "Tour Dates Page")
+
+#### Contact Page
+![Alt text](/assets/images/page4-full.png?raw=true "Contact Page")
 
 
+### Wireframes Mobile View
+
+#### Home Page
+
+![Alt text](/assets/images/page1-mobile.png?raw=true "Home Page")
+
+#### Music Page
+![Alt text](/assets/images/page2-mobile.png?raw=true "Music Page")
+
+#### Tour Dates Page
+![Alt text](/assets/images/page3-mobile.png?raw=true "Tour Dates Page")
+
+#### Contact Page
+![Alt text](/assets/images/page4-mobile.png?raw=true "Contact Page")
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all four pages, the full responsive navigation bar includes links to the Home page, Music, Tour Dates and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-
-
+![Nav Bar](/assets/images/nav-bar.png?raw=true)
 
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for the band. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/assets/images/footer.png?raw=true)
 
-- __Gallery__
+- __Home Page__
 
-  - The gallery will provide the user with supporting images/videos to see what the bans looks like. 
-  - This section is valuable to the user as they will be able see and hear the bands live videos and pictures
+  - The home page greets new vistors with a colletction of band member photos to indentify the memebers
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  - There is also some basic info to give visitors some simple backround information 
+
+
+- __Music__
+
+  - The music page will provide the user with supporting video/audio to see what the bands looks and spunds like. 
+  - This section is valuable to the user as they will be able see and hear the bands music videos and full back catalogue
+
+![Music]()
 
 - __The Tour Dates Page__
 
-  - This page will allow users to see all the tour dates of the band and plan for when they  come to their local area.
+  - This page will allow users to see all the tour dates of the band and plan for when they come to their local area.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![tour Dates]()
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- __The COntact Page__
+
+  - This page allows users to send a question to band, it also allows the band to recive emails from potenial customers for marketing.
 
 ### Features Left to Implement
 
@@ -62,14 +94,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have tested all elements of this webiste to ensure all the features work correctly
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+I have spend a lot of time making sure this webiste is fully responsive on a number of devices.
 
 ### Validator Testing 
 
