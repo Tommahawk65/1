@@ -71,31 +71,23 @@ I chose a modern minimalistic style to reflect the music of the band and to appe
 
   - There is also some basic info to give visitors some simple backround information 
 
-![Home Page](/index.html)
+  
 
 - __Music__
 
   - The music page will provide the user with supporting video/audio to see what the bands looks and spunds like. 
+
   - This section is valuable to the user as they will be able see and hear the bands music videos and full back catalogue
 
-![Music](/music.html)
 
 - __The Tour Dates Page__
 
   - This page will allow users to see all the tour dates of the band and plan for when they come to their local area.
 
-![tour Dates](/tour-dates.html)
-
 
 - __The Contact Page__
 
   - This page allows users to send a question to band, it also allows the band to recive emails from potenial customers for marketing.
-
-![Contact](/contact.html)
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
@@ -110,9 +102,6 @@ I have spend a lot of time making sure this webiste is fully responsive on a num
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](include link here)
 
-### Unfixed Bugs
-
-?? 
 
 ## Deployment
 
@@ -121,21 +110,15 @@ The live link can be found here - https://tommahawk65.github.io/Milestone1/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
 - The text for the Home page was taken from Wikipedia https://en.wikipedia.org/wiki/The_1975
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The box shadow effect on the images and buttons was created by Tiffany Rayside (https://codepen.io/tmrDevelops/pen/VeRvKX)
-- Bootstrap specific terms and the form on the  contact us page was taken from (https://getbootstrap.com/docs/4.0/components/forms/)
+
 
 ### Media
 
 - The header hero image was taken from (https://i.redd.it/ujaqgg3dya021.jpg)
-- The images of the band on  the home page were taken from (https://www.google.com/url?sa=i&  url=https%3A%2F%2Ftwitter.com%2Fthefader%2Fstatus%2F1172166489723588608&psig=AOvVaw0GO6CIXzeuTzJYddq8eMei&ust=1625158497607000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCND60K_pv_ECFQAAAAAdAAAAABAK)
+- The images of the band on  the home page were taken from (https://www.thefader.com/2019/09/12/the-1975-notes-on-a-conditional-form-interview)
 - I used spotify and youtube to embedd the media content (https://vimeo.com/77177308)(https://open.spotify.com/playlist/2XJHmI31uAsaSQTjPqcAPk?si=4860823d6a104d68)
 
 
