@@ -13,7 +13,7 @@ The band are interested in increasing their fanbase and selling more tickets to 
  
 ### Design choices
 
-I chose a modern minamilistic style to reflect the music of the band and to appeal to a younger audience.
+I chose a modern minimalistic style to reflect the music of the band and to appeal to a younger audience.
 
 ### Wireframes Full View
 
