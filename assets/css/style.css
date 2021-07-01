@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&family=Raleway:wght@300&display=swap');
 
-
 body, html {
   
   max-width: 100%;
@@ -10,37 +9,25 @@ body, html {
   font-size: 17px;
 }
 
-
-
 /* --------------------------------------------------------------------------------------Fonts */   
 
 p {
   font-family: 'Raleway', sans-serif;
 }
 
-
-
 /* --------------------------------------------------------------------------------------Nav Bar */      
 .banner {
-  
   background:url('../images/ujaqgg3dya021.jpg') no-repeat center center;
   height: 150px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 175%;
   position: relative;
-  
-  
 }
-
 
 .fullscreen-nav {
   text-align: center;
   padding-left: 0;
-  
-  
-  
-
 }
 
 .navbar {
@@ -49,17 +36,11 @@ p {
   float: left;
   padding-top: 0;
   width: 100%;
-  
-  
-  
 }
 
 .nav-link {
-  
   width: 130px;
 }
-
-
 
 .btn {
   margin-left: 20%;
@@ -72,31 +53,23 @@ p {
   padding-top: 50px;
   padding-left: 8%;
 }
+
 /* --------------------------------------------------------------------------------------Band Pictures */   
 
 .band-images{
-  
   text-align: center;
   padding: 80px 0px 40px 0px;
-  
   height: 100%;
- 
-  
-  
 }
 
 .single-pics {
-  
   padding: 0;
   margin-bottom: 40px;
-  
 }
 
 .pics-no-border {
   box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-  
-  
 }
 
 /* --------------------------------------------------------------------------------------Band Info */ 
@@ -117,43 +90,35 @@ p {
 .band-row {
   margin: 0;
 }
+
 /* --------------------------------------------------------------------------------------Video & Audio */   
 
 .media {
-  
   margin: 110px 50px 45px 50px;
 }
 
-
 .vimeo {
-  
   margin-bottom: 50px;
-  
 }
 
-
 /* --------------------------------------------------------------------------------------Footer*/   
+
 .page-footer {
   position: absolute;
   right: 0;
   left: 0;
-  padding: 1rem;
-    
+  padding: 1rem; 
 }
 
 .social-links {
-
   text-align: right;
   margin: 0;
   padding-right: 3px;
   width: 100%;
-  
 }
 
 .icons {
-
  padding: 0px 10px 0px 10px;
-
 }
 
 .fab {
@@ -163,7 +128,6 @@ p {
 .fa-soundcloud {
   padding-left: 10px;
 }
-
 
 /* --------------------------------------------------------------------------------------Tour Page*/ 
 
@@ -197,14 +161,11 @@ p {
 }
 /* --------------------------------------------------------------------------------------Media Queries */   
 
-
 @media screen and (min-width: 400px) {
   .banner {
     background-size: cover;
     height: 140px;
-  
     }
-  
 }
 
 @media screen and (min-width: 500px) {
@@ -212,21 +173,16 @@ p {
     background-size: cover;
     height: 140px;
     }
-  
 }
 
 @media screen and (max-width: 576px) {
   .social-links {
-    
     overflow: hidden;
     width: 100%;
     max-height:100%;        
     text-align: center;
-    
-    
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .pics-no-border {
@@ -236,121 +192,95 @@ p {
     overflow: hidden;
     border-radius: 50%;
   }
-    
-  }
+}
       
-       
-
 @media screen and (min-width: 800px) {
   .banner {    
     background-size: cover;
     min-height: 175px;
-   }
-   .small-nav {
+    }
+  .small-nav {
     padding-top: 65px;
-    
-  }
-
-  .band-images{
+    }
+  .band-images {
     padding-top: 120px;
   }
-  
-  }
+}
 
 @media screen and (min-width: 900px) {
   .banner {  
     background-size: cover;
     min-height: 185px;
      }
-     .small-nav {
-      padding-top: 70px;
-      
+  .small-nav {
+    padding-top: 70px;
     }
-  
-              }
+}
     
-
 @media screen and (min-width: 1000px) {
   .banner {      
     background-size: cover;
     min-height: 200px;   
-       }
-
-  
-            }
-    
+  }
+}
 
 @media screen and (min-width: 1100px) {
- .banner {
-            
+ .banner {     
   background-size: cover;
-  min-height: 220px;
-        
+  min-height: 220px;   
   }
-
   .fullscreen-nav {
     padding-top: 11px;
   }
-
- 
-        }
+}
     
 @media screen and (min-width: 1200px) {
   .banner {  
-       
     background-size: cover;
     min-height: 240px;  
-              
-           }
+  }
   .fullscreen-nav {
     padding-top: 21px;
   }
- 
-    }
-
+ }
 
 @media screen and (min-width: 1300px) {
   .banner {             
     background-size: cover;
     min-height: 260px;
-             }
-      
+  }
   .fullscreen-nav {
     padding-top: 31px;
-            }
+  }
  }
 
 @media screen and (min-width: 1400px) {
   .banner {              
     background-size: cover;
     min-height: 280px;       
-      }
-
+  }
   .fullscreen-nav {
     padding-top: 41px;
-                }
-              }
+  }
+}
   
-          
 @media screen and (min-width: 1500px) {
   .banner {
     background-size: cover;
     min-height: 300px;
-                 }
-
+  }
   .fullscreen-nav {
     padding-top: 51px;
-      }
-    }
+  }
+}
 
 @media screen and (min-width: 1600px) {
   .banner {   
     background-size: cover;
     min-height: 320px;
     margin-right: 20px;   
-                   }
-
+  }
   .fullscreen-nav {
     padding-top: 61px;
-      }
-    }
+  }
+}
