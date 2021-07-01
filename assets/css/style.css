@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Raleway:wght@300&display=swap');
+
 
 body, html {
   
   max-width: 100%;
-  overflow-x: hidden;
-  
+  height: 100%;
+  font-family: 'Castoro', serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+
+/* --------------------------------------------------------------------------------------Fonts */   
+
+p {
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -24,8 +35,10 @@ body, html {
 
 
 .fullscreen-nav {
-  padding: 10px 0px 40px 0px;
-  margin-left: 0;
+  text-align: center;
+  padding-left: 0;
+  
+  
   
 
 }
@@ -38,6 +51,7 @@ body, html {
   width: 100%;
   
   
+  
 }
 
 .nav-link {
@@ -48,6 +62,7 @@ body, html {
 
 
 .btn {
+  margin-left: 20%;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   border:solid 5px #41403E;
@@ -83,9 +98,6 @@ body, html {
   
   
 }
-/* .single-pics {
-  box-shadow: 5px 5px;
-}
 
 /* --------------------------------------------------------------------------------------Band Info */ 
 
@@ -101,6 +113,10 @@ body, html {
 .band-text {
   text-align: center;
 }
+
+.band-row {
+  margin: 0;
+}
 /* --------------------------------------------------------------------------------------Video & Audio */   
 
 .media {
@@ -115,17 +131,15 @@ body, html {
   
 }
 
-.spotify-playlist {
-  
-}
 
 /* --------------------------------------------------------------------------------------Footer*/   
 .page-footer {
-  
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
     
 }
-
-
 
 .social-links {
 
@@ -134,15 +148,16 @@ body, html {
   padding-right: 3px;
   width: 100%;
   
-
-
-  
 }
 
 .icons {
 
  padding: 0px 10px 0px 10px;
 
+}
+
+.fab {
+  color: #41403E;
 }
 
 .fa-soundcloud {
@@ -173,12 +188,14 @@ body, html {
 }
 
 .email, .password {
-  
-  width: 40%;
+  padding-left: 25%;
+  width: 80%;
+}
+
+.submit-btn {
+  margin-left: 0;
 }
 /* --------------------------------------------------------------------------------------Media Queries */   
-
-@media screen and (min-width: 300px) {
 
 
 @media screen and (min-width: 400px) {
@@ -216,7 +233,6 @@ body, html {
     object-fit: cover;
     width: 200px;
     height: 200px;
-    position: center;
     overflow: hidden;
     border-radius: 50%;
   }
@@ -272,17 +288,25 @@ body, html {
         
   }
 
+  .fullscreen-nav {
+    padding-top: 11px;
+  }
+
  
         }
     
 @media screen and (min-width: 1200px) {
-  .banner {        
+  .banner {  
+       
     background-size: cover;
     min-height: 240px;  
               
            }
+  .fullscreen-nav {
+    padding-top: 21px;
+  }
  
-          }
+    }
 
 
 @media screen and (min-width: 1300px) {
@@ -290,15 +314,22 @@ body, html {
     background-size: cover;
     min-height: 260px;
              }
-
-  
+      
+  .fullscreen-nav {
+    padding-top: 31px;
             }
+ }
 
 @media screen and (min-width: 1400px) {
   .banner {              
     background-size: cover;
     min-height: 280px;       
       }
+
+  .fullscreen-nav {
+    padding-top: 41px;
+                }
+              }
   
           
 @media screen and (min-width: 1500px) {
@@ -307,17 +338,19 @@ body, html {
     min-height: 300px;
                  }
 
-  
-        }
+  .fullscreen-nav {
+    padding-top: 51px;
+      }
+    }
 
 @media screen and (min-width: 1600px) {
   .banner {   
     background-size: cover;
-    min-height: 320px;   
+    min-height: 320px;
+    margin-right: 20px;   
                    }
 
-                  }
-                              
-          
-
-    
+  .fullscreen-nav {
+    padding-top: 61px;
+      }
+    }
