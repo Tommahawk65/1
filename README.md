@@ -98,7 +98,7 @@ I have spend a lot of time making sure this webiste is fully responsive on a num
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](include link here)
+  - No errors were returned when passing through the official [W3C validator]
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](include link here)
 
